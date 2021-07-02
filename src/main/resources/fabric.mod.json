@@ -1,29 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "nyfsdeco",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Nyf's Deco",
+  "description": "Add's a lot of Decorative Blocks of textures that are in the game, but not very useable as decor",
   "authors": [
-    "Me!"
+    "TheNyfaria"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "ARR",
+  "icon": "assets/nyfsdeco/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.nyfaria.nyfsdeco.NyfsDeco"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "nyfsdeco.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +27,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }

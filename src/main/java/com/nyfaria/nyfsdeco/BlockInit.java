@@ -1,0 +1,126 @@
+package com.nyfaria.nyfsdeco;
+
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.block.SlabBlock;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+
+public class BlockInit {
+
+    public static final Block CT_TOPBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block BF_TOPBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block BLACK_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block BLUE_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block BROWN_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block CYAN_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block GRAY_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block GREEN_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block LIGHT_BLUE_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block LIGHT_GRAY_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block LIME_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block LS_SIDEBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block LS_TOPBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block MAGENTA_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block ORANGE_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block PINK_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block PURPLE_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block RA_TOPBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block RA_TOPBLOCK_ON  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block RED_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block S_BOTTOMBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block S_TOPBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block ST_BOTTOMBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block ST_TOPBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block WHITE_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final Block YELLOW_SHULKERBLOCK  =  new Block(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock BF_TOPSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock BLACK_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock BLUE_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock BROWN_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock CT_TOPSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock CYAN_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock GRAY_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock GREEN_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock LIGHT_BLUE_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock LIGHT_GRAY_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock LIME_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock LS_SIDESLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock LS_TOPSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock MAGENTA_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock ORANGE_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock PINK_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock PURPLE_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock RA_TOPSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock RA_TOPSLAB_ON  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock RED_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock S_BOTTOMSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock S_TOPSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock ST_BOTTOMBSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock ST_TOPBLOCKSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock WHITE_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+    public static final SlabBlock YELLOW_SHULKERSLAB  =  new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(.5f));
+
+
+    public static void init(){
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","crafting_table_top_block"),CT_TOPBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","blast_furnace_top_block"),BF_TOPBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","black_shulker_block"),BLACK_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","blue_shulker_block"),BLUE_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","brown_shulker_block"),BROWN_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","cyan_shulker_block"),CYAN_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","gray_shulker_block"),GRAY_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","green_shulker_block"),GREEN_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","light_blue_shulker_block"),LIGHT_BLUE_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","light_gray_shulker_block"),LIGHT_GRAY_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","lime_shulker_block"),LIME_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","lodestone_side_block"),LS_SIDEBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","lodestone_top_block"),LS_TOPBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","magenta_shulker_block"),MAGENTA_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","orange_shulker_block"),ORANGE_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","pink_shulker_block"),PINK_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","purple_shulker_block"),PURPLE_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","respawn_anchor_top_block"),RA_TOPBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","respawn_anchor_top_block_on"),RA_TOPBLOCK_ON );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","red_shulker_block"),RED_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smoker_bottom_block"),S_BOTTOMBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smoker_top_block"),S_TOPBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","shulker_block"),SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smithing_table_bottom_block"),ST_BOTTOMBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smithing_table_top_block"),ST_TOPBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","white_shulker_block"),WHITE_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","yellow_shulker_block"),YELLOW_SHULKERBLOCK );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","blast_furnace_top_slab"),BF_TOPSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","black_shulker_slab"),BLACK_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","blue_shulker_slab"),BLUE_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","brown_shulker_slab"),BROWN_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","crafting_table_top_slab"),CT_TOPSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","cyan_shulker_slab"),CYAN_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","gray_shulker_slab"),GRAY_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","green_shulker_slab"),GREEN_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","light_blue_shulker_slab"),LIGHT_BLUE_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","light_gray_shulker_slab"),LIGHT_GRAY_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","lime_shulker_slab"),LIME_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","lodestone_side_slab"),LS_SIDESLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","lodestone_top_slab"),LS_TOPSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","magenta_shulker_slab"),MAGENTA_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","orange_shulker_slab"),ORANGE_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","pink_shulker_slab"),PINK_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","purple_shulker_slab"),PURPLE_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","respawn_anchor_top_slab"),RA_TOPSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","respawn_anchor_top_slab_on"),RA_TOPSLAB_ON );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","red_shulker_slab"),RED_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smoker_bottom_slab"),S_BOTTOMSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smoker_top_slab"),S_TOPSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","shulker_slab"),SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smithing_table_bottom_slab"),ST_BOTTOMBSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","smithing_table_top_slab"),ST_TOPBLOCKSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","white_shulker_slab"),WHITE_SHULKERSLAB );
+        Registry.register(Registry.BLOCK, new Identifier("nyfsdeco","yellow_shulker_slab"),YELLOW_SHULKERSLAB );
+
+    }
+
+}
